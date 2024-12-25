@@ -9,7 +9,7 @@ const Navbar = () => {
             <i className="fas fa-home mr-2"></i> Home
         </li>
         <li className="flex items-center text-white">
-            <i className="fas fa-pen mr-2"></i> Create Space
+            <i className="fas fa-pen mr-2"></i> profile
         </li>
         <li className="flex items-center text-white">
             <i className="fas fa-book mr-2"></i> Writing
