@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ThemeToggle from './ThemeToggle'; 
 const Navbar = () => {
   return (
     <div className="w-1/5 bg-black h-screen p-4">
@@ -15,6 +15,9 @@ const Navbar = () => {
             <i className="fas fa-book mr-2"></i> Writing
        </li>
     </ul>
+    <div className="mt-4">
+        <ThemeToggle /> {/* Add the ThemeToggle button */}
+      </div>
 </div>
   );
 }

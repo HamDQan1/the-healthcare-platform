@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+body.light {
+  background-color: white;
+  color: black;
+}
 
+body.dark {
+  background-color: black;
+  color: white;
+}
 
+/* Navbar styles */
+.navbar {
+  border: 2px solid transparent; /* Default border */
+}
 
+body.light .navbar {
+  background-color: white; /* Light theme background */
+  color: black; /* Light theme text color */
+  border-color: gray; /* Light theme border color */
+}
+
+body.dark .navbar {
+  background-color: black; /* Dark theme background */
+  color: white; /* Dark theme text color */
+  border-color: white; /* Dark theme border color */
+}
